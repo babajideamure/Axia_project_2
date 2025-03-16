@@ -1,176 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://kit.fontawesome.com/390a997054.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  <header> 
-
-    <div class="navbar">
-
-      <div class="logo-container">
-          <img src="./image/Nexcent.png" alt="JayDeploy Logo" class="logo" width="100" height="100">
-          <span class="brand-name">JayDeploy</span>
-      </div>
-  
-      <nav class="nav-links">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexcent</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN' crossorigin='anonymous'>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL' crossorigin='anonymous'
+        defer></script>
+    <link rel="stylesheet" href="assets/styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container d-flex">
+        <div class="logo">
+          <a href="index.html"><img src="assets/icons/logo-website.webp" alt="Website Logo" />Nexcent</a>
+        </div>
+        <nav>
+          <label for="toggle"><img src="assets/icons/menu.webp" alt="Menu Icon" /></label>
+          <input type="checkbox" id="toggle" />
           <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Testimonial</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Consult Now</a></li>
-          </ul> 
-      </nav>
-  
-      <div class="auth-buttons">
-          <button class="log-in">Login</button>
-          <button class="sign-up">Sign Up</button>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">service</a></li>
+            <li><a href="#feature">Feature</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#" class="login special-text">Login</a></li>
+            <li><a href="#" class="signup section-btn">Sign Up</a></li>
+          </ul>
+        </nav>
       </div>
-
-  </div>
-
-  </header>
-  
-
-  <main>
-    <div class="cta">
-      <div class="words">
-        <h3>Lessons and insights <span class="cta-word">from 8 years</span> </h3>
-        <p>Website vs. Cloud: Where should your business infrastructure live?</p>
-      </div>
-
-      <div class="image">
-        <img src="./image/Illustration (1).png" width="391" height="407">
-      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container d-flex">
+          <div class="col">
+            <h1>
+              Lessons and insights <br />
+              <span class="special-text">from 8 years</span>
+            </h1>
+            <p class="section-description">Where to grow your business as a photographer: site or social media?</p>
+            <a href="#" class="section-btn">Register</a>
+          </div>
+          <div class="col">
+            <img src="assets/images/design-1.webp" alt="" />
+          </div>
+        </div>
+      </section>
       
+      <section>
+        <div class="container text-center">
+          <h2 class="section-title">
+            Manage your entire community <br />
+            in a single system
+          </h2>
+          <p class="section-description">Who is Nextcent suitable for?</p>
+          <div class="cards-list d-flex">
+            <div class="card">
+              <img src="assets/icons/users-2.webp" alt="Users Icon" />
+              <h3>
+                Membership <br />
+                Organisations
+              </h3>
+              <p class="section-description">Our membership management software provides full automation of membership renewals and payments</p>
+            </div>
+            <div class="card">
+              <img src="assets/icons/users-2.webp" alt="Users Icon" />
+              <h3>
+                Membership <br />
+                Organisations
+              </h3>
+              <p class="section-description">Our membership management software provides full automation of membership renewals and payments</p>
+            </div>
+            <div class="card">
+              <img src="assets/icons/users-2.webp" alt="Users Icon" />
+              <h3>
+                Membership <br />
+                Organisations
+              </h3>
+              <p class="section-description">Our membership management software provides full automation of membership renewals and payments</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container d-flex">
+          <div class="col">
+            <img src="assets/images/design-2.webp" alt="design-2" />
+          </div>
+          <div class="col">
+            <h2 class="section-title">
+              The unseen of spending three <br />
+              years at Pixelgrade
+            </h2>
+            <p class="section-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam
+              mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+            </p>
+            <a href="#" class="section-btn">Learn more</a>
+          </div>
+        </div>
+      </section>
+      <section class="statistcs">
+        <div class="container d-flex">
+          <div class="col">
+            <h2 class="section-title">
+              Helping a local
+              <span class="special-text">business reinvent itself</span>
+            </h2>
+            <p class="section-description">We reached here with our hard work and dedication</p>
+          </div>
+          <div class="col statistcs-list d-flex">
+            <div class="statistc d-flex">
+              <img src="assets/icons/users.webp" alt="Users Icon" />
+              <div>
+                <span>2,245,341</span>
+                <span>Member</span>
+              </div>
+            </div>
+            <div class="statistc d-flex">
+              <img src="assets/icons/users.webp" alt="Users Icon" />
+              <div>
+                <span>2,245,341</span>
+                <span>Member</span>
+              </div>
+            </div>
+            <div class="statistc d-flex">
+              <img src="assets/icons/users.webp" alt="Users Icon" />
+              <div>
+                <span>2,245,341</span>
+                <span>Member</span>
+              </div>
+            </div>
+            <div class="statistc d-flex">
+              <img src="assets/icons/users.webp" alt="Users Icon" />
+              <div>
+                <span>2,245,341</span>
+                <span>Member</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container d-flex">
+          <div class="col">
+            <img src="assets/images/design-3.webp" alt="design-2" />
+          </div>
+          <div class="col">
+            <h2 class="section-title">
+              How to design your site footer like we did ? <br />
+            </h2>
+            <p class="section-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam
+              mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+            </p>
+            <a href="#" class="section-btn">Learn more</a>
+          </div>
+        </div>
+      </section>
+      <section class="clients">
+        <div class="container d-flex">
+          <div class="col">
+            <img src="assets/images/design-4.webp" alt="design-2" />
+          </div>
+          <div class="col">
+            <p class="section-description">
+              Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in,
+              gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique
+              nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque,
+              eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.
+            </p>
+            <span class="special-text">Tim smith</span>
+            <p class="section-description">British Dragon Boat Racing Association</p>
+            <div class="test_logos  d-flex">
+              <img src="assets/icons/logo-2.webp" alt="" />
+              <img src="assets/icons/logo-3.webp" alt="" />
+              <img src="assets/icons/logo-1.webp" alt="" />
+              <img src="assets/icons/logo-7.webp" alt="" />
+              <img src="assets/icons/logo-6.webp" alt="" />
+              <img src="assets/icons/logo-5.webp" alt="" />
+              <a href="#" class="special-text">Meet all customers &rarr; </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="test">
+        <div class="container">
+          <h2 class="section-title text-center">Caring is the new marketing</h2>
+          <p class="section-description text-center">
+            The Nexcent blog is the best place to read about the latest membership insights, <br />
+            trends and more. See who's joining the community, <br />
+            read about how our community are increasing their membership income and lot's more.​
+          </p>
+          <div class="cards-list d-flex">
+            <div class="card text-center">
+              <img src="assets/images/design-5.webp" alt="design-5" />
+              <div class="info">
+                <p class="section-description">Creating Streamlined Safeguarding Processes with OneRen</p>
+                <a href="#" class="special-text">Read more</a>
+              </div>
+            </div>
+            <div class="card text-center">
+              <img src="assets/images/design-6.webp" alt="design-6" />
+              <div class="info">
+                <p class="section-description">What are your responsibilities and how can you manage them?</p>
+                <a href="#" class="special-text">Read more</a>
+              </div>
+            </div>
+            <div class="card text-center">
+              <img src="assets/images/design-7.webp" alt="design-7" />
+              <div class="info">
+                <p class="section-description">Revamping the Membership Model with Triathlon Australia.</p>
+                <a href="#" class="special-text">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="get-demo">
+        <div class="container">
+          <h2 class="section-title text-center">
+            Pellentesque suscipit <br />
+            fringilla libero eu.
+          </h2>
+          <a href="#" class="section-btn">Get a demo</a>
+        </div>
+      </section>
+      <div class="row footer-main">
+        <div class="row sm-text-center footer-content content-wrapper py-5">
+            <div class="col-md-5 center col-12 d-flex flex-column justify-content-between">
+                <div class=" sm-mx-auto d-flex align-items-center">
+                    <img class="pointor" src="/assets/icons/icon-white.svg" alt="logo" width="35" height="24">
+                    <h1 class="sm-mx-auto logo-text ms-2 pointor">Nexcent</h1>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2025 Nexcent ltd.</p>
+                    <p>All rights reserved</p>
+                </div>
+                <div class="sm-mx-auto social-links d-flex">
+                    <img src="assets/icons/instagram-icon.svg" alt="Instagram">
+                    <img src="assets/icons/internet-icon.svg" alt="Internet">
+                    <img src="assets/icons/twitter-icon.svg" alt="Twitter">
+                    <img src="assets/icons/youtube-icon.svg" alt="Youtube">
+                </div>
+            </div>
+            <div class="col-md-2 col-6 footer-nav">
+                <h5 class="mb-3 ">Company</h5>
+                <ul>
+                    <li>About us</li>
+                    <li>Blog</li>
+                    <li>Contact us</li>
+                    <li>Pricing</li>
+                    <li>Testimonials</li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-6 footer-nav">
+                <h5 class="mb-3">Support</h5>
+                <ul>
+                    <li>Help Center</li>
+                    <li>Terms of Service</li>
+                    <li>Legal</li>
+                    <li>Privacy Policy</li>
+                    <li>Status</li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-12 footer-nav">
+                <h5 class="mb-3 center">Stay up to date</h5>
+                <div class="input-box center sm-mx-auto">
+                    <input class="center" type="text" name="subscribe" id="subscribe"
+                        placeholder="Your email address">
+                    <img src="assets/icons/emailsend-icon.svg" alt="Email-send">
+                </div>
+            </div>
+        </div>
     </div>
-
-    <!-- section part -->
-
-    <div class="section-one">
-
-    <div class="sectioncard-title">
-      <h3> Deploy, Optimize, and Manage Your Cloud <br>All in One Place</h3>
-      <p>Who is JayDeploy suitable for?</p>
-    </div>
-  
-    <div class="sectioncard">
-
-    <section class="card">
-      <img src="./image/Icon.png" alt="Membership Organisations">
-      <h3>Cloud <br>Management</h3>
-      <p>Effortless Cloud Deployments. We help businesses deploy cloud solutions seamlessly, ensuring optimal performance and scalability</p>
-    </section>
-    
-    <section class="card">
-      <img src="./image/Icon (1).png" alt="National Associations">
-      <h3>Cloud <br>Optimization</h3>
-      <p>Optimize Your Cloud Infrastructure.
-        Our experts fine-tune your cloud environment for cost efficiency, security, and high availability.</p>
-    </section>
-
-    <section class="card">
-      <img src="./image/Icon (2).png" alt="Clubs And Groups">
-      <h3>Cloud <br>Deployment</h3>
-      <p>End-to-End Cloud Management.
-        From monitoring to automation, we provide full cloud lifecycle management for smooth operations.</p>
-    </section>
-
-  </div>
-</div>
-    
-  </main>
-
-  <footer>
-
-    <div class="footer-container">
-
-  
-
-<div class="flower">
-  <div class="footer-writeup">
-    <h3>Seamless cloud <br>solutions for all.</h3>
-    <button class="btn">Get a Demo <i class="fa-solid fa-arrow-right"></i></button>
-  </div>
-</div>
-
-<div class="tree">
-<div class="gap">
-
-<div class="containerii">
-
-  <div class="logo">
-    <img src="./image/Nexcent.png" alt="JayDeploy Logo" class="logo" width="100" height="100">
-    <span class="brand-name">JayDeploy</span>
-  </div>
-
-  <div class="two">
-    <p>Copyright © 2020 JayDeploy.<br>
-      All rights reserved</p>
-
-      <div class="footer-links">
-        <a href="https://github.com/babajideamure" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://x.com/jyd18" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/babajide-amure-815a5969/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.youtube.com/@babajideamure108" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-      </div>
-
-</div>
-</div>
-
-
-<div class="containeri">
-
-  <div class="c1">
-    <h3>Company</h3>
-    <ul>
-      <li>About us</li>
-      <li>Blog</li>
-      <li>Contact us</li>
-      <li>Pricing</li>
-      <li>Testimonials</li>
-    </ul>
-  </div>
-
-  <div class="c2">
-    <h3>Support</h3>
-    <ul>
-      <li>Help center</li>
-      <li>Terms of service</li>
-      <li>Legal</li>
-      <li>Privacy policy</li>
-      <li>Status</li>
-    </ul>
-  </div>
-
-  <div class="c3">
-    <h3>Stay up to date</h3>
-    <button>Your email address  <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
-  </div>
-
-</div>
-</div>
-</div>
-
-</div>
-
-
-  </footer>
- 
- 
-</body>
+    </main>
+  </body>
 </html>
-
-
-
-
-
-
-
-
